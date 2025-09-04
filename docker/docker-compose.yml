@@ -1,0 +1,84 @@
+version: "3.1"
+
+services:
+  ilisan-php-apache:
+    build:
+      args:
+        uid: 1000
+        user: ilisan
+        container_project_path: /var/www/html/
+      context: .
+      dockerfile: ./Dockerfile
+    image: ilisan-php-apache
+    ports:
+      - 8082:80
+    volumes:
+      - ../bagisto:/var/www/html/
+
+  ilisan-mysql:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+    volumes:
+      - ./.configs/mysql-data:/var/lib/mysql/
+
+  ilisan-redis:
+    image: redis:7-alpine
+    ports:
+      - 6379:6379
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - ./.configs/redis-data:/data
+
+  ilisan-phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: ilisan-mysql
+      PMA_USER: root
+      PMA_PASSWORD: root
+      UPLOAD_LIMIT: 512M
+    ports:
+      - 8080:80
+
+  ilisan-elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.0.4
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - ./.configs/elasticsearch-data:/var/lib/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+  ilisan-kibana:
+    image: docker.elastic.co/kibana/kibana:9.0.4
+    environment:
+      - ELASTICSEARCH_HOSTS=http://ilisan-elasticsearch:9200
+    ports:
+      - 5601:5601
+    depends_on:
+      - ilisan-elasticsearch
+
+  ilisan-mailpit:
+    image: axllent/mailpit:latest
+    logging:
+        # Disable saving logs.
+        driver: 'none'
+    ports:
+        # SMTP server.
+        - 1025:1025
+        - 8025:8025
