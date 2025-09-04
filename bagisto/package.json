@@ -1,6 +1,6 @@
 {
     "name": "ilisan-ecommerce",
-    "description": "İlisan E-Ticaret Platformu Frontend Assets",
+    "description": "Ilısan E-Ticaret Platformu Frontend Assets",
     "private": true,
     "scripts": {
         "dev": "vite",

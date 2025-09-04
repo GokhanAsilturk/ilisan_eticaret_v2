@@ -6,7 +6,7 @@ return [
             'email'                  => 'E-posta Adresi',
             'forget-password-link'   => 'Şifremi Unuttum ?',
             'password'               => 'Şifre',
-            'powered-by-description' => 'İlisan E-Ticaret Platformu',
+            'powered-by-description' => 'Ilısan E-Ticaret Platformu',
             'submit-btn'             => 'Giriş Yap',
             'title'                  => 'Giriş Yap',
         ],
@@ -16,20 +16,20 @@ return [
                 'email'                  => 'Kayıtlı E-posta',
                 'email-not-exist'        => 'E-posta Bulunamadı',
                 'page-title'             => 'Şifremi Unuttum',
-            'powered-by-description' => 'İlisan E-Ticaret Platformu',
+            'powered-by-description' => 'Ilısan E-Ticaret Platformu',
                 'reset-link-sent'        => 'Şifre Sıfırlama Bağlantısı Gönderildi',
-                'sign-in-link'           => 'Giriş Yap’a Geri Dön ?',
+                'sign-in-link'           => 'Giriş Yap',
                 'submit-btn'             => 'Sıfırla',
                 'title'                  => 'Şifre Kurtarma',
             ],
         ],
 
         'reset-password' => [
-            'back-link-title'        => 'Giriş Yap’a Geri Dön ?',
+            'back-link-title'        => 'Giriş Yap',
             'confirm-password'       => 'Şifreyi Onayla',
             'email'                  => 'Kayıtlı E-posta',
             'password'               => 'Şifre',
-            'powered-by-description' => 'İlisan E-Ticaret Platformu',
+            'powered-by-description' => 'Ilısan E-Ticaret Platformu',
             'submit-btn'             => 'Şifre Sıfırla',
             'title'                  => 'Şifre Sıfırlama',
         ],
@@ -5003,7 +5003,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '© 2024 İlisan E-Ticaret Platformu. Tüm hakları saklıdır.',
+        'copy-right' => '© 2024 Ilısan E-Ticaret Platformu. Tüm hakları saklıdır.',
     ],
 
     'emails' => [

@@ -1,8 +1,8 @@
-# İlisan Docker Kurulumu
+# Ilısan Docker Kurulumu
 
 ## Giriş
 
-Bu repository, İlisan E-Ticaret Platformu için gerekli tüm bağımlılıkları ve çalışma ortamını sağlar. Aşağıdaki servisleri içerir:
+Bu repository, Ilısan E-Ticaret Platformu için gerekli tüm bağımlılıkları ve çalışma ortamını sağlar. Aşağıdaki servisleri içerir:
 
 - PHP-Apache
 - MySQL

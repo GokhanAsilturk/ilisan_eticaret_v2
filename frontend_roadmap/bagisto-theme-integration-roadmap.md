@@ -1,7 +1,7 @@
-# İlisan İçin Hazır Bagisto Temalarını Bağlama Roadmap'i
+# Ilısan İçin Hazır Bagisto Temalarını Bağlama Roadmap'i
 
 ## 🎯 Proje Hedefi
-Mevcut Bagisto temalarını İlisan platformuna entegre etmek ve özelleştirmek.
+Mevcut Bagisto temalarını Ilısan platformuna entegre etmek ve özelleştirmek.
 
 ## 📋 Aşama 1: Tema Araştırması ve Seçimi (3-5 gün)
 
@@ -20,7 +20,7 @@ Mevcut Bagisto temalarını İlisan platformuna entegre etmek ve özelleştirmek
 - [ ] **Third-party Premium Themes**
 
 ### 1.3 Seçim Kriterleri
-- [ ] İlisan brand'ine uygunluk
+- [ ] Ilısan brand'ine uygunluk
 - [ ] Responsive tasarım kalitesi
 - [ ] Performans optimizasyonu
 - [ ] Özelleştirme kolaylığı
@@ -44,14 +44,14 @@ Mevcut Bagisto temalarını İlisan platformuna entegre etmek ve özelleştirmek
 - [ ] Renk paleti güncelleme
 - [ ] Typography ayarları
 
-## 📋 Aşama 3: İlisan Brand Entegrasyonu (1-2 hafta)
+## 📋 Aşama 3: Ilısan Brand Entegrasyonu (1-2 hafta)
 
 ### 3.1 Marka Özelleştirmeleri
-- [ ] İlisan logosunu entegre etme
+- [ ] Ilısan logosunu entegre etme
 - [ ] Brand renklerini tema renkleriyle uyumlaştırma
 - [ ] Yazı tipleri güncelleme
 - [ ] Favicon ve meta etiketleri güncelleme
-- [ ] Footer bilgilerini İlisan ile değiştirme
+- [ ] Footer bilgilerini Ilısan ile değiştirme
 
 ### 3.2 İçerik Özelleştirmesi
 - [ ] Ana sayfa banner'larını güncelleme
@@ -229,7 +229,7 @@ Mevcut Bagisto temalarını İlisan platformuna entegre etmek ve özelleştirmek
 
 ## 🚀 Hızlı Başlangıç Checklist
 
-- [ ] İlisan brand guideline'ı hazırlayın
+- [ ] Ilısan brand guideline'ı hazırlayın
 - [ ] Bagisto demo'ları inceleyin
 - [ ] Tema seçimi yapın
 - [ ] Development environment kurun
@@ -237,4 +237,4 @@ Mevcut Bagisto temalarını İlisan platformuna entegre etmek ve özelleştirmek
 
 ---
 
-Bu roadmap, hazır Bagisto temalarını kullanarak İlisan platformunu hızlıca ayağa kaldırmak için tasarlanmıştır. Proje gereksinimlerine göre esnek olarak uygulanabilir.
+Bu roadmap, hazır Bagisto temalarını kullanarak Ilısan platformunu hızlıca ayağa kaldırmak için tasarlanmıştır. Proje gereksinimlerine göre esnek olarak uygulanabilir.

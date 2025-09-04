@@ -15,7 +15,7 @@
                 />
             @else
                 <img
-                    class="w-max"
+                    class="h-22 w-auto max-w-[260px]"
                     src="{{ url('logo.svg') }}"
                     alt="ILISAN"
                 />

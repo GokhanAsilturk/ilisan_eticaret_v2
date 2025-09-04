@@ -1,6 +1,6 @@
 # Frontend Roadmap İndeksi
 
-Bu klasör, İlisan E-Ticaret Platformu için frontend geliştirme seçeneklerini ve roadmap'leri içermektedir.
+Bu klasör, Ilısan E-Ticaret Platformu için frontend geliştirme seçeneklerini ve roadmap'leri içermektedir.
 
 ## 📁 Dosyalar
 

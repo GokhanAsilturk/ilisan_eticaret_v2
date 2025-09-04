@@ -1,4 +1,4 @@
-# İlisan Bagisto Projesi
+# Ilısan Bagisto Projesi
 
 Bu proje Bagisto e-ticaret platformu ve Docker konfigürasyonunu içerir.
 

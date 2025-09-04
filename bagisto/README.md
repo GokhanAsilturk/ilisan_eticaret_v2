@@ -1,13 +1,13 @@
-# İlisan E-Ticaret Platformu
+# Ilısan E-Ticaret Platformu
 
 <p align="center">
-  <h1 align="center">İlisan</h1>
+  <h1 align="center">Ilısan</h1>
   <p align="center">Modern E-Ticaret Çözümleri</p>
 </p>
 
 ## Hakkında
 
-İlisan, modern e-ticaret ihtiyaçlarını karşılamak için geliştirilmiş güçlü bir platformdur. Laravel ve Vue.js teknolojileri ile inşa edilmiş olan İlisan, işletmelerin online satış yapabilmeleri için kapsamlı araçlar sunar.
+Ilısan, modern e-ticaret ihtiyaçlarını karşılamak için geliştirilmiş güçlü bir platformdur. Laravel ve Vue.js teknolojileri ile inşa edilmiş olan Ilısan, işletmelerin online satış yapabilmeleri için kapsamlı araçlar sunar.
 
 ## Özellikler
 
@@ -24,7 +24,7 @@
 
 ## Kurulum
 
-İlisan'ı Docker ile kolayca kurabilirsiniz:
+Ilısan'ı Docker ile kolayca kurabilirsiniz:
 
 ```bash
 git clone https://github.com/your-repo/ilisan.git
@@ -54,7 +54,7 @@ Detaylı kurulum talimatları için [Kurulum Kılavuzu](docs/installation.md)'nu
 
 ## Katkıda Bulunma
 
-İlisan'a katkıda bulunmak istiyorsanız:
+Ilısan'a katkıda bulunmak istiyorsanız:
 
 1. Bu repo'yu fork edin
 2. Yeni bir branch oluşturun
@@ -75,11 +75,11 @@ Sorularınız veya önerileriniz için bizimle iletişime geçebilirsiniz:
 
 ---
 
-© 2024 İlisan E-Ticaret Platformu. Tüm hakları saklıdır.
+© 2024 Ilısan E-Ticaret Platformu. Tüm hakları saklıdır.
 
 ## Sistem Gereksinimleri
 
-İlisan'ı çalıştırmak için aşağıdaki sistem gereksinimlerini karşılamanız gerekir:
+Ilısan'ı çalıştırmak için aşağıdaki sistem gereksinimlerini karşılamanız gerekir:
 
 - PHP >= 8.2
 - MySQL >= 8.0

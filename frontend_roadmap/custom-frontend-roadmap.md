@@ -1,13 +1,13 @@
-# İlisan İçin Özel Frontend Tasarımı Roadmap'i
+# Ilısan İçin Özel Frontend Tasarımı Roadmap'i
 
 ## 🎯 Proje Hedefi
-İlisan e-ticaret platformu için modern, kullanıcı dostu ve responsive bir frontend tasarımı geliştirmek.
+Ilısan e-ticaret platformu için modern, kullanıcı dostu ve responsive bir frontend tasarımı geliştirmek.
 
 ## 📋 Aşama 1: Planlama ve Tasarım (1-2 hafta)
 
 ### 1.1 Gereksinim Analizi
 - [ ] Mevcut Bagisto frontend'ini inceleme
-- [ ] İlisan brand identity'sini belirleme
+- [ ] Ilısan brand identity'sini belirleme
 - [ ] Hedef kullanıcı kitlesini tanımlama
 - [ ] Rakip analizi yapma
 - [ ] Teknik gereksinimler belirleme
@@ -202,4 +202,4 @@
 
 ---
 
-Bu roadmap, İlisan projesi için özel frontend geliştirme sürecinin detaylı bir planıdır. Proje ihtiyaçlarına göre güncellenebilir ve revize edilebilir.
+Bu roadmap, Ilısan projesi için özel frontend geliştirme sürecinin detaylı bir planıdır. Proje ihtiyaçlarına göre güncellenebilir ve revize edilebilir.

@@ -5003,7 +5003,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '© 2024 İlisan E-Commerce Platform. All rights reserved.',
+        'copy-right' => '© 2024 Ilısan E-Commerce Platform. All rights reserved.',
     ],
 
     'emails' => [
