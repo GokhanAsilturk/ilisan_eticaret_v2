@@ -5,7 +5,7 @@
     </x-slot>
 
     <div class="flex h-[100vh] items-center justify-center">
-        <div class="flex flex-col items-center gap-5">
+        <div class="flex flex-col items-center gap-2">
             <!-- Logo -->
             @if ($logo = core()->getConfigData('general.design.admin_logo.logo_image'))
                 <img
@@ -15,7 +15,7 @@
                 />
             @else
                 <img
-                    class="h-22 w-auto max-w-[260px]"
+                    class="h-20 w-auto max-w-[260px]"
                     src="{{ url('logo.svg') }}"
                     alt="ILISAN"
                 />
