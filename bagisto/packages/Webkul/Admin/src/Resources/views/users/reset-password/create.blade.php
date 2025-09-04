@@ -16,7 +16,7 @@
             @else
                 <img
                     class="w-max"
-                    src="{{ url('ilisan-logo.svg') }}"
+                    src="{{ url('logo.svg') }}"
                     alt="ILISAN"
                 />
             @endif            <div class="box-shadow flex min-w-[300px] flex-col rounded-md bg-white dark:bg-gray-900">

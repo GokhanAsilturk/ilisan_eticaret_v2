@@ -21,7 +21,7 @@
                 />
             @else
                 <img
-                    src="{{ request()->cookie('dark_mode') ? url('ilisan-dark-logo.svg') : url('ilisan-logo.svg') }}"
+                    src="{{ request()->cookie('dark_mode') ? url('dark-logo.svg') : url('logo.svg') }}"
                     class="h-8 w-auto sm:h-10"
                     id="logo-image"
                     alt="ILISAN"
@@ -156,7 +156,7 @@
                 />
             @else
                 <img
-                    src="{{ request()->cookie('dark_mode') ? url('ilisan-dark-logo.svg') : url('ilisan-logo.svg') }}"
+                    src="{{ request()->cookie('dark_mode') ? url('dark-logo.svg') : url('logo.svg') }}"
                     class="h-8 w-auto sm:h-10"
                     id="logo-image"
                     alt="ILISAN"
