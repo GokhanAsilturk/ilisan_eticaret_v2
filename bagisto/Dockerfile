@@ -71,3 +71,6 @@ USER $user
 
 # setting work directory
 WORKDIR $container_project_path
+
+# copy project files
+COPY --chown=$user:www-data . $container_project_path
