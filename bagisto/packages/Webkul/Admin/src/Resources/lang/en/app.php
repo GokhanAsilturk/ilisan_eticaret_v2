@@ -6,7 +6,7 @@ return [
             'email'                  => 'Email Address',
             'forget-password-link'   => 'Forget Password ?',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by :bagisto, an open-source project by :webkul.',
+            'powered-by-description' => 'Developed by Gökhan Asiltürk',
             'submit-btn'             => 'Sign In',
             'title'                  => 'Sign In',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Registered Email',
                 'email-not-exist'        => 'Email Not Exists',
                 'page-title'             => 'Forget Password',
-                'powered-by-description' => 'Powered by :bagisto, an open-source project by :webkul.',
+                'powered-by-description' => 'Developed by Gökhan Asiltürk',
                 'reset-link-sent'        => 'Reset Password link sent',
                 'sign-in-link'           => 'Back to Sign In ?',
                 'submit-btn'             => 'Reset',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Confirm Password',
             'email'                  => 'Registered Email',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by :bagisto, an open-source project by :webkul.',
+            'powered-by-description' => 'Developed by Gökhan Asiltürk',
             'submit-btn'             => 'Reset Password',
             'title'                  => 'Reset Password',
         ],
@@ -4703,7 +4703,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Powered by :bagisto, an open-source project by :webkul.',
+                'description' => 'Developed by <a href="https://www.linkedin.com/in/gokhanasilturk" target="_blank" style="color: #0066cc; text-decoration: none;">Gökhan Asiltürk</a>',
             ],
         ],
 

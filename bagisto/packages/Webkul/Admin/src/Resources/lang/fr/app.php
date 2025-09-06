@@ -4703,7 +4703,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Propulsé par :bagisto, un projet open-source par :webkul.',
+                'description' => '<a href="https://www.linkedin.com/in/gokhanasilturk" target="_blank" style="color: #0066cc; text-decoration: none;">Développé par Gökhan Asiltürk</a>',
             ],
         ],
 

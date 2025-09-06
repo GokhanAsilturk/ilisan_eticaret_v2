@@ -4703,7 +4703,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Desenvolvido por :bagisto, um projeto de código aberto da :webkul.',
+                'description' => 'Desenvolvido por <a href="https://www.linkedin.com/in/gokhanasilturk" target="_blank" style="color: #0066cc; text-decoration: none;">Gökhan Asiltürk</a>',
             ],
         ],
 

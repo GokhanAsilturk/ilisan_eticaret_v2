@@ -4703,7 +4703,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => '由 :bagisto 提供支持，一个由 :webkul 社区支持的项目。',
+                'description' => '由 <a href="https://www.linkedin.com/in/gokhanasilturk" target="_blank" style="color: #0066cc; text-decoration: none;">Gökhan Asiltürk</a> 开发',
             ],
         ],
 
