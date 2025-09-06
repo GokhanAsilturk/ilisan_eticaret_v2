@@ -71,7 +71,7 @@
                     <x-slot:content class="!p-0">
                         @foreach ($channels as $channel)
                             <a
-                                href="?{{ Arr::query(['channel' => $channel->code, 'locale' => $channel->default_locale?->code ?? $currentLocale->code ) }}"
+                                href="?{{ Arr::query(['channel' => $channel->code, 'locale' => $channel->default_locale?->code ?? $currentLocale->code]) }}"
                                 class="flex cursor-pointer gap-2.5 px-5 py-2 text-base hover:bg-gray-100 dark:text-white dark:hover:bg-gray-950"
                             >
                                 {{ $channel->name }}
@@ -91,7 +91,7 @@
                             <span class="icon-language text-2xl"></span>
 
                             {{ $currentLocale->name }}
-                            
+
                             <input
                                 type="hidden"
                                 name="locale"
@@ -136,7 +136,7 @@
                             && view()->exists($path = $field->getPath())
                         )
                             {!! view($path, compact('field', 'child'))->render() !!}
-                        @else 
+                        @else
                             @include ('admin::configuration.field-type')
                         @endif
                     @endforeach
