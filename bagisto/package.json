@@ -2,13 +2,15 @@
     "name": "ilisan-ecommerce",
     "description": "Ilısan E-Ticaret Platformu Frontend Assets",
     "private": true,
+
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.7.9",
-        "laravel-vite-plugin": "^1.0",
+        "laravel-vite-plugin": "^1.0.3",
         "vite": "^5.4.12"
     }
 }
